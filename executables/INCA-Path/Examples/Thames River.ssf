@@ -1,0 +1,210 @@
+System name: Test fully-branched system		
+Stream count: 1
+
+======================
+STREAM ID: 1-01
+======================
+Name: Thames River (tributary 1)			
+Order: 0
+Initial values: 0.01 10000.0 10000.0 20.0
+Parameters: 0.0 30.0
+Reach count: 22
+Lake count: 0
+
+Reach ID: TR01
+-------------------
+Name: Tributary 1 Reach 1
+Upstream boundary latitude: 51.6880
+Upstream boundary longitude: -2.0207
+Downstream boundary latitude: 51.6603
+Downstream boundary longitude: -1.7911
+Inputs: 
+
+Reach ID: TR02
+-------------------
+Name: Tributary 1 Reach 2
+Upstream boundary latitude: 51.6603
+Upstream boundary longitude: -1.7911
+Downstream boundary latitude: 51.6807
+Downstream boundary longitude: -1.6687
+Inputs: TR01
+
+Reach ID: TR03
+-------------------
+Name: Tributary 1 Reach 3
+Upstream boundary latitude: 51.6807
+Upstream boundary longitude: -1.6687
+Downstream boundary latitude: 51.6978
+Downstream boundary longitude: -1.5319
+Inputs: TR02
+
+Reach ID: TR04
+-------------------
+Name: Tributary 1 Reach 4
+Upstream boundary latitude: 51.6978
+Upstream boundary longitude: -1.5319
+Downstream boundary latitude: 51.7608
+Downstream boundary longitude: -1.3617
+Inputs: TR03
+
+Reach ID: TR05
+-------------------
+Name: Tributary 1 Reach 5
+Upstream boundary latitude: 51.7608
+Upstream boundary longitude: -1.3617
+Downstream boundary latitude: 51.7884
+Downstream boundary longitude: -1.3062
+Inputs: TR04
+
+Reach ID: TR06
+-------------------
+Name: Tributary 1 Reach 6
+Upstream boundary latitude: 51.7884
+Upstream boundary longitude: -1.3062
+Downstream boundary latitude: 51.7486
+Downstream boundary longitude: -1.2691
+Inputs: TR05
+
+Reach ID: TR07
+-------------------
+Name: Tributary 1 Reach 7
+Upstream boundary latitude: 51.7486			
+Upstream boundary longitude: -1.2691
+Downstream boundary latitude: 51.7079
+Downstream boundary longitude: -1.2307
+Inputs: TR06
+
+Reach ID: TR08
+-------------------
+Name: Tributary 1 Reach 8
+Upstream boundary latitude: 51.7079			
+Upstream boundary longitude: -1.2307
+Downstream boundary latitude: 51.6704
+Downstream boundary longitude: -1.2675
+Inputs: TR07
+
+Reach ID: TR09
+-------------------
+Name: Tributary 1 Reach 9
+Upstream boundary latitude: 51.6704
+Upstream boundary longitude: -1.2675
+Downstream boundary latitude: 51.6493
+Downstream boundary longitude: -1.2641
+Inputs: TR08
+
+Reach ID: TR10
+-------------------
+Name: Tributary 1 Reach 10
+Upstream boundary latitude: 51.6493			
+Upstream boundary longitude: -1.2641
+Downstream boundary latitude: 51.6370
+Downstream boundary longitude: -1.1797
+Inputs: TR09
+
+Reach ID: TR11
+-------------------
+Name: Tributary 1 Reach 11
+Upstream boundary latitude: 51.6370			
+Upstream boundary longitude: -1.1797
+Downstream boundary latitude: 51.6163
+Downstream boundary longitude: -1.1153
+Inputs: TR10
+
+Reach ID: TR12
+-------------------
+Name: Tributary 1 Reach 12
+Upstream boundary latitude: 51.6163	
+Upstream boundary longitude: -1.1153
+Downstream boundary latitude: 51.4866	
+Downstream boundary longitude: -1.0861
+Inputs: TR11
+
+Reach ID: TR13
+-------------------
+Name: Tributary 1 Reach 13
+Upstream boundary latitude: 51.4866	
+Upstream boundary longitude: -1.0861
+Downstream boundary latitude: 51.4604	
+Downstream boundary longitude: -0.9616
+Inputs: TR12
+
+Reach ID: TR14
+-------------------
+Name: Tributary 1 Reach 14
+Upstream boundary latitude: 51.4604
+Upstream boundary longitude: -0.9616
+Downstream boundary latitude: 51.5010	
+Downstream boundary longitude: -0.8812
+Inputs: TR13
+
+Reach ID: TR15
+-------------------
+Name: Tributary 1 Reach 15
+Upstream boundary latitude: 51.5010
+Upstream boundary longitude: -0.8812
+Downstream boundary latitude: 51.5668
+Downstream boundary longitude: -0.7677
+Inputs: TR14
+
+Reach ID: TR16
+-------------------
+Name: Tributary 1 Reach 16
+Upstream boundary latitude: 51.5668			
+Upstream boundary longitude: -0.7677
+Downstream boundary latitude: 51.5089
+Downstream boundary longitude: -0.6893
+Inputs: TR15
+
+Reach ID: TR17
+-------------------
+Name: Tributary 1 Reach 17
+Upstream boundary latitude: 51.5089			
+Upstream boundary longitude: -0.6893
+Downstream boundary latitude: 51.4917
+Downstream boundary longitude: -0.6019
+Inputs: TR16
+
+Reach ID: TR18
+-------------------
+Name: Tributary 1 Reach 18
+Upstream boundary latitude: 51.4917	
+Upstream boundary longitude: -0.6019
+Downstream boundary latitude: 51.4407	
+Downstream boundary longitude: -0.5546
+Inputs: TR17
+
+Reach ID: TR19
+-------------------
+Name: Tributary 1 Reach 19
+Upstream boundary latitude: 51.4407	
+Upstream boundary longitude: -0.5546
+Downstream boundary latitude: 51.4357	
+Downstream boundary longitude: -0.5288
+Inputs: TR18
+
+Reach ID: TR20
+-------------------
+Name: Tributary 1 Reach 20
+Upstream boundary latitude: 51.4357
+Upstream boundary longitude: -0.5288
+Downstream boundary latitude: 51.3999	
+Downstream boundary longitude: -0.4909
+Inputs: TR19
+
+Reach ID: TR21
+-------------------
+Name: Tributary 1 Reach 21
+Upstream boundary latitude: 51.3999	
+Upstream boundary longitude: -0.4909
+Downstream boundary latitude: 51.4047	
+Downstream boundary longitude: -0.3458
+Inputs: TR20
+
+Reach ID: TR22
+-------------------
+Name: Tributary 1 Reach 22
+Upstream boundary latitude: 51.4047
+Upstream boundary longitude: -0.3458
+Downstream boundary latitude: 51.4287	
+Downstream boundary longitude: -0.3166
+Inputs: TR21
