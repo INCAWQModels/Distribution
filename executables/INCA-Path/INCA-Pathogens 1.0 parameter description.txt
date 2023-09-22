@@ -1,0 +1,115 @@
+//
+// Parameter file description
+//
+// INCA-Pathogens v1.0.x
+//
+
+// Short text describing catchment etc.
+Title
+
+// Landscape unit labels. In columns, one column for each landscape unit
+Short landscape unit name
+Long landscape unit name
+
+// Land phase initial conditions. In columns, one column for each land use group
+initial direct runoff (m3/s)
+initial soil water flow (m3/s)
+initial direct runoff pathogen (no./100ml)
+initial soil water pathogen (no./100ml)
+initial soil temperature (°C)
+
+// Run period information
+Start date (dd/mm/yyyy)
+Timesteps (days)
+
+// Land phase parameters. In columns, one column for each land use group
+plant growth start day (julian day)
+plant growth period (days)
+soil moisture deficit maximum (mm)
+maximum temperature difference (°C)
+soil water sustainable flow (m3/s)
+direct runoff sustainable flow (m3/s)
+response to a 10° change in temperature (ø)
+base temperature response (°C)
+initial snow pack depth (mm)
+degree day factor for snowmelt (mm/°C/day)
+water equivalent factor (ø)
+snow depth / soil temperature factor (/m)
+thermal conductivity of soil (W/m/°C)
+specific heat capacity due to freeze/thaw (J/m3/°C)
+growth curve offset (ø)
+growth curve amplitude (ø)
+soil water pathogen die-off rate
+soil water pathogen growth rate
+light decay rate proportionality constant (ø)
+animal addition rate (no./ha/day)
+manure addition start day 1 (julian day)
+manure addition period 1 (days)
+manure addition rate 1 (no./ha/day)
+manure addition start day 2 (julian day)
+manure addition period 2 (days)
+manure addition rate 2 (no./ha/day)
+manure addition start day 3 (julian day)
+manure addition period 3 (days)
+manure addition rate 3 (no./ha/day)
+direct runoff time constant (days)
+soil reactive zone time constant (days)
+ratio of total to available water in soil (m)
+
+// Instream initial conditions.
+Initial instream flow (m3/s)
+Initial water column pathogen (no./100ml) 
+Initial pathogen in sediment (no./100ml) 
+Initial water temperature (°C)
+
+// Instream parameters
+Minimum water temperature (°C)
+Water temperature lag factor (ø)
+
+Number of Reaches
+
+// Reach parameters. In rows, one row for each reach,
+Name
+Length (m)
+flow a (/m2)
+flow b (ø)
+effluent flow rate (m3/s)
+abstraction flow rate (m3/s)
+latitude (decimal degrees)
+longitude (decimal degrees)
+width (m)
+slope (ø)
+shear velocity scaling factor (ø)
+light decay proportionality constant (ø)
+deposition rate
+shear velocity threshold for resuspension (m/s)
+resuspension rate (/day)
+water column decay rate (/day)
+water column growth rate (/day)
+sediment decay rate (/day)
+sediment growth rate (/day)
+effluent concentration (no./100ml)
+effluent on/off switch (ø)
+
+// Sub-catchments parameters. In rows, one row for each sub-catchment.
+area (km2)
+Land1 (%)
+Land2 (%)
+Land3 (%)
+Land4 (%)
+Land5 (%)
+Land6 (%)
+Base Flow Index (ø)
+threshold soil zone flow (m3/s)
+rainfall excess proportion (ø)
+maximum infiltration rate (mm/day)
+groundwater maximum effective depth (m)
+groundwater proportion of filled pore space (ø)
+groundwater zone time constant (days)
+groundwater initial flow (m3/s)
+groundwater sustainable flow (m3/s)
+groundwater pathogen die-off rate (m/day)
+groundwater pathogen growth rate (m/day)
+groundwater pathogen initial concentration (no./100ml)
+dry depoition (no./ha/yr)
+wet deposition (no./ha/yr)
