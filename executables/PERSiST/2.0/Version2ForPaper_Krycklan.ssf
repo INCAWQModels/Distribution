@@ -1,0 +1,241 @@
+System name: Krycklan
+Stream count: 14
+
+======================
+STREAM ID: A
+======================
+Name: A
+Order: 0
+Reach count: 1
+Lake count: 0
+
+Reach ID: C01
+-------------------
+Name: C01
+Upstream boundary latitude: 64.23
+Upstream boundary longitude: 19.77
+Downstream boundary latitude: 64.2
+Downstream boundary longitude: 19.75
+Inputs: 
+
+======================
+STREAM ID: B
+======================
+Name: B
+Order: 0
+Reach count: 1
+Lake count: 0
+
+Reach ID: C02
+-------------------
+Name: C02
+Upstream boundary latitude: 64.23
+Upstream boundary longitude: 19.77
+Downstream boundary latitude: 64.2
+Downstream boundary longitude: 19.75
+Inputs: 
+
+======================
+STREAM ID: C
+======================
+Name: C
+Order: 0
+Reach count: 1
+Lake count: 0
+
+Reach ID: C04
+-------------------
+Name: C04
+Upstream boundary latitude: 64.23
+Upstream boundary longitude: 19.77
+Downstream boundary latitude: 64.2
+Downstream boundary longitude: 19.75
+Inputs: 
+
+======================
+STREAM ID: D
+======================
+Name: D
+Order: 0
+Reach count: 1
+Lake count: 0
+
+Reach ID: C05
+-------------------
+Name: C05
+Upstream boundary latitude: 64.23
+Upstream boundary longitude: 19.77
+Downstream boundary latitude: 64.2
+Downstream boundary longitude: 19.75
+Inputs: 
+
+======================
+STREAM ID: H
+======================
+Name: H
+Order: 0
+Reach count: 1
+Lake count: 0
+
+Reach ID: C10
+-------------------
+Name: C10
+Upstream boundary latitude: 64.23
+Upstream boundary longitude: 19.77
+Downstream boundary latitude: 64.2
+Downstream boundary longitude: 19.75
+Inputs: 
+
+======================
+STREAM ID: L
+======================
+Name: L
+Order: 0
+Reach count: 1
+Lake count: 0
+
+Reach ID: C15
+-------------------
+Name: C15
+Upstream boundary latitude: 64.23
+Upstream boundary longitude: 19.77
+Downstream boundary latitude: 64.2
+Downstream boundary longitude: 19.75
+Inputs: 
+
+======================
+STREAM ID: N
+======================
+Name: N
+Order: 0
+Reach count: 1
+Lake count: 0
+
+Reach ID: C20
+-------------------
+Name: C20
+Upstream boundary latitude: 64.23
+Upstream boundary longitude: 19.77
+Downstream boundary latitude: 64.2
+Downstream boundary longitude: 19.75
+Inputs: 
+
+======================
+STREAM ID: E
+======================
+Name: E
+Order: 1
+Reach count: 1
+Lake count: 0
+
+Reach ID: C06
+-------------------
+Name: C06
+Upstream boundary latitude: 64.23
+Upstream boundary longitude: 19.77
+Downstream boundary latitude: 64.2
+Downstream boundary longitude: 19.75
+Inputs: C05 
+
+======================
+STREAM ID: F
+======================
+Name: F
+Order: 1
+Reach count: 1
+Lake count: 0
+
+Reach ID: C07
+-------------------
+Name: C07
+Upstream boundary latitude: 64.23
+Upstream boundary longitude: 19.77
+Downstream boundary latitude: 64.2
+Downstream boundary longitude: 19.75
+Inputs: C04 C02 
+
+======================
+STREAM ID: I
+======================
+Name: I
+Order: 1
+Reach count: 1
+Lake count: 0
+
+Reach ID: C12
+-------------------
+Name: C12
+Upstream boundary latitude: 64.23
+Upstream boundary longitude: 19.77
+Downstream boundary latitude: 64.2
+Downstream boundary longitude: 19.75
+Inputs: C01 C10 
+
+======================
+STREAM ID: K
+======================
+Name: K
+Order: 1
+Reach count: 1
+Lake count: 0
+
+Reach ID: C14
+-------------------
+Name: C14
+Upstream boundary latitude: 64.23
+Upstream boundary longitude: 19.77
+Downstream boundary latitude: 64.2
+Downstream boundary longitude: 19.75
+Inputs: C20 
+
+======================
+STREAM ID: G
+======================
+Name: G
+Order: 2
+Reach count: 1
+Lake count: 0
+
+Reach ID: C09
+-------------------
+Name: C09
+Upstream boundary latitude: 64.23
+Upstream boundary longitude: 19.77
+Downstream boundary latitude: 64.2
+Downstream boundary longitude: 19.75
+Inputs: C06 C07 
+
+======================
+STREAM ID: J
+======================
+Name: J
+Order: 3
+Reach count: 1
+Lake count: 0
+
+Reach ID: C13
+-------------------
+Name: C13
+Upstream boundary latitude: 64.23
+Upstream boundary longitude: 19.77
+Downstream boundary latitude: 64.2
+Downstream boundary longitude: 19.75
+Inputs: C09 
+
+======================
+STREAM ID: M
+======================
+Name: M
+Order: 4
+Reach count: 1
+Lake count: 0
+
+Reach ID: C16
+-------------------
+Name: C16
+Upstream boundary latitude: 64.23
+Upstream boundary longitude: 19.77
+Downstream boundary latitude: 64.2
+Downstream boundary longitude: 19.75
+Inputs: C12 C13 C14 C15 
+
