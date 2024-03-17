@@ -1,0 +1,418 @@
+System name: Version 1
+Stream count: 16
+
+======================
+STREAM ID: Lejstaan
+======================
+Name: Lejstaan
+Order: 1
+Reach count: 4
+Lake count: 0
+
+Reach ID: LejR1T1
+-------------------
+Name: LejR1T1
+Upstream boundary latitude: 60.065
+Upstream boundary longitude: 17.817
+Downstream boundary latitude: 60.012
+Downstream boundary longitude: 17.849
+Inputs:  
+
+Reach ID: LejR2T1
+-------------------
+Name: LejR2T1
+Upstream boundary latitude: 60.065
+Upstream boundary longitude: 17.817
+Downstream boundary latitude: 60.065
+Downstream boundary longitude: 17.817
+Inputs: LejR1T1 
+
+Reach ID: LejR3T1
+-------------------
+Name: LejR3T1
+Upstream boundary latitude: 60.065
+Upstream boundary longitude: 17.817
+Downstream boundary latitude: 59.989
+Downstream boundary longitude: 17.869
+Inputs: LejR2T1 
+
+Reach ID: LejR4T1
+-------------------
+Name: LejR4T1
+Upstream boundary latitude: 59.989
+Upstream boundary longitude: 17.869
+Downstream boundary latitude: 59.961
+Downstream boundary longitude: 17.752
+Inputs: LejR3T1 
+
+======================
+STREAM ID: Tomtaan
+======================
+Name: Tomtaan
+Order: 1
+Reach count: 1
+Lake count: 0
+
+Reach ID: TomR1T2
+-------------------
+Name: TomR1T2
+Upstream boundary latitude: 59.961
+Upstream boundary longitude: 17.752
+Downstream boundary latitude: 59.989
+Downstream boundary longitude: 17.869
+Inputs: 
+
+======================
+STREAM ID: Stora_hopan_a
+======================
+Name: Stora_hopan_a
+Order: 1
+Reach count: 3
+Lake count: 0
+
+Reach ID: StHaR1T3
+-------------------
+Name: StHaR1T3
+Upstream boundary latitude: 59.989
+Upstream boundary longitude: 17.869
+Downstream boundary latitude: 59.849
+Downstream boundary longitude: 18.254
+Inputs: 
+
+Reach ID: StHaR2T3
+-------------------
+Name: StHaR2T3
+Upstream boundary latitude: 59.849
+Upstream boundary longitude: 18.254
+Downstream boundary latitude: 59.852
+Downstream boundary longitude: 18.098
+Inputs: StHaR1T3 
+
+Reach ID: StHaR3T3
+-------------------
+Name: StHaR3T3
+Upstream boundary latitude: 59.852
+Upstream boundary longitude: 18.098
+Downstream boundary latitude: 59.871
+Downstream boundary longitude: 18.108
+Inputs: StHaR2T3 
+
+======================
+STREAM ID: Stora_hopan_b
+======================
+Name: Stora_hopan_b
+Order: 2
+Reach count: 1
+Lake count: 0
+
+Reach ID: StHbR1T4
+-------------------
+Name: StHbR1T4
+Upstream boundary latitude: 59.871
+Upstream boundary longitude: 18.108
+Downstream boundary latitude: 59.868
+Downstream boundary longitude: 18.067
+Inputs: StHaR3T3 
+
+======================
+STREAM ID: Dammtorpet
+======================
+Name: Dammtorpet
+Order: 1
+Reach count: 1
+Lake count: 0
+
+Reach ID: DamR1T5
+-------------------
+Name: DamR1T5
+Upstream boundary latitude: 59.868
+Upstream boundary longitude: 18.067
+Downstream boundary latitude: 59.792
+Downstream boundary longitude: 17.966
+Inputs: 
+
+======================
+STREAM ID: Ostra_langsjon_a
+======================
+Name: Ostra_langsjon_a
+Order: 3
+Reach count: 2
+Lake count: 0
+
+Reach ID: OsLaR1T6
+-------------------
+Name: OsLaR1T6
+Upstream boundary latitude: 59.792
+Upstream boundary longitude: 17.966
+Downstream boundary latitude: 59.874
+Downstream boundary longitude: 18.033
+Inputs: DamR1T5 StHbR1T4 
+
+Reach ID: OsLaR2T6
+-------------------
+Name: OsLaR2T6
+Upstream boundary latitude: 59.874
+Upstream boundary longitude: 18.033
+Downstream boundary latitude: 59.88
+Downstream boundary longitude: 17.986
+Inputs: OsLaR1T6 
+
+======================
+STREAM ID: Ostra_langsjon_b
+======================
+Name: Ostra_langsjon_b
+Order: 1
+Reach count: 1
+Lake count: 0
+
+Reach ID: OsLbR1T7
+-------------------
+Name: OsLbR1T7
+Upstream boundary latitude: 59.88
+Upstream boundary longitude: 17.986
+Downstream boundary latitude: 59.877
+Downstream boundary longitude: 17.95
+Inputs: 
+
+======================
+STREAM ID: Ostra_langsjon_c
+======================
+Name: Ostra_langsjon_c
+Order: 4
+Reach count: 2
+Lake count: 0
+
+Reach ID: OsLcR1T8
+-------------------
+Name: OsLcR1T8
+Upstream boundary latitude: 59.877
+Upstream boundary longitude: 17.95
+Downstream boundary latitude: 59.869
+Downstream boundary longitude: 17.946
+Inputs: OsLbR1T7 OsLaR2T6 
+
+Reach ID: OsLcR2T8
+-------------------
+Name: OsLcR2T8
+Upstream boundary latitude: 59.869
+Upstream boundary longitude: 17.946
+Downstream boundary latitude: 59.883
+Downstream boundary longitude: 17.968
+Inputs: OsLcR1T8
+
+======================
+STREAM ID: Vistebyan
+======================
+Name: Vistebyan
+Order: 5
+Reach count: 1
+Lake count: 0
+
+Reach ID: VisR1T9
+-------------------
+Name: VisR1T9
+Upstream boundary latitude: 59.883
+Upstream boundary longitude: 17.968
+Downstream boundary latitude: 59.875
+Downstream boundary longitude: 17.901
+Inputs: OsLcR2T8 LejR4T1
+
+======================
+STREAM ID: Funbosjon
+======================
+Name: Funbosjon
+Order: 6
+Reach count: 2
+Lake count: 0
+
+Reach ID: FunR1T10
+-------------------
+Name: FunR1T10
+Upstream boundary latitude: 59.875
+Upstream boundary longitude: 17.901
+Downstream boundary latitude: 59.891
+Downstream boundary longitude: 17.881
+Inputs: VisR1T9 TomR1T2 
+
+Reach ID: FunR2T10
+-------------------
+Name: FunR2T10
+Upstream boundary latitude: 59.891
+Upstream boundary longitude: 17.881
+Downstream boundary latitude: 59.859
+Downstream boundary longitude: 17.86
+Inputs: FunR1T10 
+
+======================
+STREAM ID: Funboan
+======================
+Name: Funboan
+Order: 7
+Reach count: 1
+Lake count: 0
+
+Reach ID: FunbR1T11
+-------------------
+Name: FunbR1T11
+Upstream boundary latitude: 59.859
+Upstream boundary longitude: 17.86
+Downstream boundary latitude: 59.835
+Downstream boundary longitude: 17.844
+Inputs: FunR2T10 TreR5T12 
+
+======================
+STREAM ID: Trehorningen
+======================
+Name: Trehorningen
+Order: 1
+Reach count: 5
+Lake count: 0
+
+Reach ID: TreR1T12
+-------------------
+Name: TreR1T12
+Upstream boundary latitude: 59.835
+Upstream boundary longitude: 17.844
+Downstream boundary latitude: 59.798
+Downstream boundary longitude: 17.884
+Inputs: 
+
+Reach ID: TreR2T12
+-------------------
+Name: TreR2T12
+Upstream boundary latitude: 59.798
+Upstream boundary longitude: 17.884
+Downstream boundary latitude: 59.817
+Downstream boundary longitude: 17.91
+Inputs: TreR1T12 
+
+Reach ID: TreR3T12
+-------------------
+Name: TreR3T12
+Upstream boundary latitude: 59.817
+Upstream boundary longitude: 17.91
+Downstream boundary latitude: 59.829
+Downstream boundary longitude: 17.914
+Inputs: TreR2T12 
+
+Reach ID: TreR4T12
+-------------------
+Name: TreR4T12
+Upstream boundary latitude: 59.829
+Upstream boundary longitude: 17.914
+Downstream boundary latitude: 59.83
+Downstream boundary longitude: 17.91
+Inputs: TreR3T12 
+
+Reach ID: TreR5T12
+-------------------
+Name: TreR5T12
+Upstream boundary latitude: 59.83
+Upstream boundary longitude: 17.91
+Downstream boundary latitude: 59.832
+Downstream boundary longitude: 17.882
+Inputs: TreR4T12 
+
+======================
+STREAM ID: Ubby_langsjon
+======================
+Name: Ubby_langsjon
+Order: 1
+Reach count: 3
+Lake count: 0
+
+Reach ID: UbbR1T13
+-------------------
+Name: UbbR1T13
+Upstream boundary latitude: 59.832
+Upstream boundary longitude: 17.882
+Downstream boundary latitude: 59.754
+Downstream boundary longitude: 18.054
+Inputs: 
+
+Reach ID: UbbR2T13
+-------------------
+Name: UbbR2T13
+Upstream boundary latitude: 59.754
+Upstream boundary longitude: 18.054
+Downstream boundary latitude: 59.794
+Downstream boundary longitude: 18.154
+Inputs: UbbR1T13 
+
+Reach ID: UbbR3T13
+-------------------
+Name: UbbR3T13
+Upstream boundary latitude: 59.794
+Upstream boundary longitude: 18.154
+Downstream boundary latitude: 59.744
+Downstream boundary longitude: 18.049
+Inputs: UbbR2T13 
+
+======================
+STREAM ID: Vidboan
+======================
+Name: Vidboan
+Order: 1
+Reach count: 1
+Lake count: 0
+
+Reach ID: VidR1T14
+-------------------
+Name: VidR1T14
+Upstream boundary latitude: 59.744
+Upstream boundary longitude: 18.049
+Downstream boundary latitude: 59.637
+Downstream boundary longitude: 17.958
+Inputs: 
+
+======================
+STREAM ID: Storan
+======================
+Name: Storan
+Order: 2
+Reach count: 1
+Lake count: 0
+
+Reach ID: StoR1T15
+-------------------
+Name: StoR1T15
+Upstream boundary latitude: 59.637
+Upstream boundary longitude: 17.958
+Downstream boundary latitude: 59.741
+Downstream boundary longitude: 18.015
+Inputs: VidR1T14 UbbR3T13
+
+======================
+STREAM ID: Savjaan
+======================
+Name: Savjaan
+Order: 8
+Reach count: 3
+Lake count: 0
+
+Reach ID: SavR1T16
+-------------------
+Name: SävR1T16
+Upstream boundary latitude: 59.741
+Upstream boundary longitude: 18.015
+Downstream boundary latitude: 59.831
+Downstream boundary longitude: 17.692
+Inputs: StoR1T15 FunbR1T11 
+
+Reach ID: SavR2T16
+-------------------
+Name: SävR2T16
+Upstream boundary latitude: 59.831
+Upstream boundary longitude: 17.692
+Downstream boundary latitude: 59.807
+Downstream boundary longitude: 17.784
+Inputs: SavR1T16 
+
+Reach ID: SavR3T16
+-------------------
+Name: SävR3T16
+Upstream boundary latitude: 59.807
+Upstream boundary longitude: 17.784
+Downstream boundary latitude: 59.829
+Downstream boundary longitude: 17.704
+Inputs: SavR2T16 
