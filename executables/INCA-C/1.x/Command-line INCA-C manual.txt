@@ -1,0 +1,58 @@
+Required parameters
+-------------------
+-par <filename>		// Parameter filename
+-dat <filename>		// Input data filename
+
+Optional parameters
+-------------------
+[-size <small | medium | large | huge>]	// Amount of output files, defaults to "small"
+[-h | -noh]				// Write headers (-h) or not (-noh), defaults to "h"
+[-out <filename>]			// output filename, defaults to "inca_out"
+[-of  <filename>]			// Organic fertiliser time series filename
+[-tpdc  <filename>]			// Terrestrial input PDC time series filename
+[-apdc  <filename>]			// Aquatic input PDC time series filename
+[-abs <filename>]			// Abstraction time series filename
+[-eff <filename>]			// Effluent time series filename
+[-lup <filename>]			// Land use periods time series filename
+[-dep <filename>]			// Deposition time series filename
+[-spatial <filename>]			// Spatially distributed time series filename
+[-log <filename>]			// Write an error log to <filename>
+[-ref <number>]				// Reference run number, written to error log
+[-res]					// Force results file to be written even if model run failed
+[-rain]					// Use AP rather than HER in infiltration calculation
+
+
+
+Description of '-size' parameter arguments
+------------------------------------------
+
+small:
+Only the daily instream simulated data will be written to file.
+
+medium:
+The daily instream simulated data, annual loads and daily loads will be written to file.
+
+large:
+The daily instream simulated data, annual loads, daily loads, soil water and groundwater results will be written to file.
+
+huge:
+The daily instream simulated data, annual loads, daily loads, soil water results, groundwater results, instream balance and land phase balance will be written to file
+
+all:
+The daily instream simulated data, annual loads, daily loads, soil water results, groundwater results, instream balance, land phase balance, soil temperature, snow depth and snow water equivalent time series will be written to file
+
+
+
+Description of '-spatial' parameter
+-----------------------------------
+
+The '-spatial' parameter allows you to specify a spatially-distributed input time series control file. The control file looks like this:
+
+E:\Users\sbutda\data\inca\tweed\1994 to 2000\tweed9400up.DAT
+1,2,3,4,5,6,7,8,9,10,11,12
+E:\Users\sbutda\data\inca\tweed\1994 to 2000\tweed9400low.DAT
+13,14,15,16,17,18,19,20,21,22,23
+
+For each input time series you would like to use in the INCA-N application, you must specify the full path to the file, followed by a list of the sub-catchments that should use the data. So in the example above, sub-catchments 1-12 use the data from file 'tweed9400up.dat', while sub-catchments 13-23 use the data from the file 'tweed9400low.dat'.
+
+Note that when you use a spatial control file you *must* still use the required '-dat' parameter and supply a valid filename, even though it will be ignored.
