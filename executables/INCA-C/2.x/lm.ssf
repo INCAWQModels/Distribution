@@ -1,0 +1,61 @@
+System name: LM
+Stream count: 2
+
+======================
+STREAM ID: 1
+======================
+Name: 690
+Order: 0
+Initial values: 0.00211727 3.52609 15 1.85726 20 
+Parameters: 0 0.69 
+Reach count: 1
+Lake count: 0
+
+Reach ID: Lake_690
+-------------------
+Name: Lake_690
+Upstream boundary latitude: 60
+Upstream boundary longitude: 30
+Downstream boundary latitude: 60
+Downstream boundary longitude: 30
+Inputs: 
+
+======================
+STREAM ID: 2
+======================
+Name: Main
+Order: 0
+Initial values: 0.00211727 3.52609 15 1.85726 20 
+Parameters: 0 0.69 
+Reach count: 3
+Lake count: 0
+
+Reach ID: Duckfish
+-------------------
+Name: Duckfish
+Upstream boundary latitude: 0
+Upstream boundary longitude: 0
+Downstream boundary latitude: 60
+Downstream boundary longitude: 30
+Inputs: 
+
+Reach ID: Vital_Narrow
+-------------------
+Name: Vital_Narrow
+Upstream boundary latitude: 60
+Upstream boundary longitude: 30
+Downstream boundary latitude: 60
+Downstream boundary longitude: 30
+Inputs: Duckfish Lake_690
+
+Reach ID: Lower_Martin
+-------------------
+Name: Lower_Martin
+Upstream boundary latitude: 60
+Upstream boundary longitude: 30
+Downstream boundary latitude: 60
+Downstream boundary longitude: 30
+Inputs: Vital_Narrow
+
+
+
